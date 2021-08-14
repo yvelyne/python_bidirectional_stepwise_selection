@@ -15,7 +15,7 @@
 
 import numpy as np
 import pandas as pd
-import statsmodels.formula.api as sm
+import statsmodels.api as sm
 
 def BidirectionalStepwiseSelection(X, y, model_type ="linear", elimination_criteria = "aic", varchar_process = "dummy_dropfirst", senter=0.05, sstay=0.05):
     
